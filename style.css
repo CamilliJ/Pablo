@@ -1,0 +1,134 @@
+.body {
+  background-color: aquamarine;
+  background-image: url("praia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.manuelGomes {
+  background-color: aquamarine;
+  background-image: url("manuelgomes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  color: red;
+  margin-top: 100px;
+  margin-left: 90px;
+  width: 40%;
+}
+
+.mensagem {
+  color: red;
+  margin-top: 100px;
+  margin-left: 90px;
+  width: 40%;
+}
+
+.fogo {
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+  margin-bottom: -100px;
+}
+
+.apagado {
+  display: none;
+}
+
+.veneno {
+  display: none;
+}
+
+.vivo {
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  text-align: right;
+}
+
+button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.never {
+  text-decoration: none;
+  font-size: xx-large;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+
+.neverbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 20px;
+  margin-bottom: -180px;
+}
+
+#banana {
+  color: yellow;
+  font-size: x-small;
+  cursor: pointer;
+}
+
+#banana:hover {
+  font-size: 85px;
+  transition: 4s;
+}
+.bana {
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.spoie {
+  color: red;
+}
+
+.yes {
+  display: none;
+}
+
+.black {
+  display: none;
+}
+
+.yesComplete {
+  width: 40%;
+  background-color: aquamarine;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  font-size: 50px;
+  padding: 40px;
+  text-align: center;
+  display: block;
+}
+
+.blackComplete {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  display: block;
+}
